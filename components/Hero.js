@@ -159,7 +159,7 @@ export default function Hero({ scrollTo }) {
                   borderColor: "#8b5cf6"
                 }}
                 whileTap={{ scale: 0.95 }}
-                href="/Resume.pdf"
+                href="/LDCE_MCA_KOMAL_RIBADIYA_RESUME.pdf"
                 className="btn btn-outline group relative"
                 download
               >

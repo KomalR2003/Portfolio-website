@@ -66,7 +66,7 @@ export default function Projects() {
       technologies: ['Next.js', 'Tailwind CSS', 'Framer Motion'],
       image: 'projects/portfolio.png',
       github: 'https://github.com/KomalR2003/Portfolio-website',
-      demo: 'https://demo.com',
+      demo: 'https://portfolio-website-sage-zeta.vercel.app/',
       gradient: 'from-blue-500 to-purple-600',
       category: 'Frontend'
     },
