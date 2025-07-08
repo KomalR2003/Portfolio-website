@@ -55,7 +55,7 @@ export default function Projects() {
       technologies: ['HTML', 'CSS', 'Javascript'],
       image: 'projects/blogger.png',
       github: 'https://github.com/KomalR2003/Blogger',
-      demo: 'https://demo.com',
+      demo: 'https://blogger-website-design.netlify.app/',
       gradient: 'from-blue-500 to-purple-600',
       category: 'Frontend'
     },
@@ -65,7 +65,7 @@ export default function Projects() {
       description: 'Personal portfolio website with animated components, project showcase, and contact form built using Next.js, Framer Motion, and Tailwind CSS.',
       technologies: ['Next.js', 'Tailwind CSS', 'Framer Motion'],
       image: 'projects/portfolio.png',
-      github: 'https://github.com/KomalR2003',
+      github: 'https://github.com/KomalR2003/Portfolio-website',
       demo: 'https://demo.com',
       gradient: 'from-blue-500 to-purple-600',
       category: 'Frontend'
@@ -76,8 +76,8 @@ export default function Projects() {
       description: 'A real-time WhatsApp clone built with React frontend, Node.js/Express backend, MongoDB database, and Socket.io for instant messaging with Google OAuth authentication and file upload capabilities.',
       technologies: ['React', 'Node/Express js', 'MongoDB', 'Socket.io'],
       image: 'projects/wp.png',
-      github: 'https://github.com/KomalR2003',
-      demo: 'https://demo.com',
+      github: 'https://github.com/KomalR2003/Whatsapp-Clone',
+      demo: 'https://whatsapp-clone-kp6a.vercel.app/',
       gradient: 'from-blue-500 to-purple-600',
       category: 'Fullstack'
     },

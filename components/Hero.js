@@ -101,7 +101,6 @@ export default function Hero({ scrollTo }) {
             <motion.div variants={fadeInUp} className="text-reveal mb-6">
               <motion.h1 
                 className="text-2xl mt-14 md:text-5xl lg:text-6xl font-bold font-playfair text-gray-900 dark:text-white"
-                animate={magneticEffect}
               >
                 <span>Hi, I'm </span>
                 <span className="gradient-text inline-block ps-1">

@@ -60,7 +60,7 @@ export default function About() {
             <motion.div variants={fadeInLeft} className="lg:col-span-2">
               <h3 className="text-2xl font-bold mb-6 text-gray-900 dark:text-white">My Journey</h3>
               <p className="text-lg mb-6 text-gray-600 dark:text-gray-300 leading-relaxed">
-                With over 4 years of experience in full-stack development, I've had the privilege of working on diverse projects that span from startups to enterprise solutions.
+                With over 6 months of experience in full-stack development, I've had the privilege of working on diverse projects that span from startups to enterprise solutions.
               </p>
               <p className="text-lg mb-6 text-gray-600 dark:text-gray-300 leading-relaxed">
                 My expertise lies in creating scalable, user-friendly applications using modern technologies like React, Node.js, and cloud services. I'm passionate about clean code, optimal performance, and exceptional user experiences.
