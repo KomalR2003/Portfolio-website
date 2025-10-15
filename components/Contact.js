@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import {  Linkedin, Mail, Phone, MapPin, Send } from 'lucide-react';
+import { FaGithub } from "react-icons/fa";
 import { useForm, ValidationError } from '@formspree/react';
 
 export default function Contact() {
@@ -33,9 +34,10 @@ export default function Contact() {
     }
   };
 
-  // const handleSubmit = async (e) => {
-  //   e.preventDefault();
-  //   setIsLoading(true);
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setIsLoading(true);
+  }
 
   function ContactForm() {
   const [state, handleSubmit] = useForm("mdkderwg");
@@ -113,7 +115,7 @@ export default function Contact() {
                   href="https://github.com/KomalR2003"
                   className="w-12 h-12 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full flex items-center justify-center text-white hover:opacity-80 transition-opacity"
                 >
-                  <Github size={24} />
+                  <FaGithub size={24} />
                 </motion.a>
                 <motion.a
                   whileHover={{ scale: 1.1 }}

@@ -1,7 +1,8 @@
 'use client';
 
 import { motion, AnimatePresence } from 'framer-motion';
-import { Github, ExternalLink, Star, Zap } from 'lucide-react';
+import {  ExternalLink, Star, Zap } from 'lucide-react';
+import { FaGithub } from "react-icons/fa";
 import { useState } from 'react';
 
 export default function Projects() {
@@ -198,7 +199,7 @@ export default function Projects() {
                           whileHover={{ scale: 1.1, rotate: 360 }}
                           whileTap={{ scale: 0.9 }}
                         >
-                          <Github size={20} />
+                          <FaGithub  size={20} />
                         </motion.a>
                         <motion.a
                           href={project.demo}
