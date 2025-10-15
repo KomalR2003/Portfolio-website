@@ -2,7 +2,8 @@
 
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Github, Linkedin, Mail, Phone, MapPin, Send } from 'lucide-react';
+import {  Linkedin, Mail, Phone, MapPin, Send } from 'lucide-react';
+import { useForm, ValidationError } from '@formspree/react';
 
 export default function Contact() {
   const [isLoading, setIsLoading] = useState(false);
@@ -32,16 +33,23 @@ export default function Contact() {
     }
   };
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    setIsLoading(true);
+  // const handleSubmit = async (e) => {
+  //   e.preventDefault();
+  //   setIsLoading(true);
+
+  function ContactForm() {
+  const [state, handleSubmit] = useForm("mdkderwg");
+  if (state.succeeded) {
+      return <p>Thanks for joining!</p>;
+  }
+  
     
     // Simulate form submission
-    await new Promise(resolve => setTimeout(resolve, 2000));
+    // await new Promise(resolve => setTimeout(resolve, 2000));
     
-    setIsLoading(false);
-    alert('Thank you for your message! I\'ll get back to you soon.');
-    e.target.reset();
+  //   setIsLoading(false);
+  //   alert('Thank you for your message! I\'ll get back to you soon.');
+  //   e.target.reset();
   };
 
   return (
@@ -127,7 +135,9 @@ export default function Contact() {
             </motion.div>
 
             <motion.div variants={fadeInRight}>
-              <form onSubmit={handleSubmit} className="space-y-6">
+              <form 
+              action
+              onSubmit={handleSubmit} className="space-y-6">
                 <div>
                   <label className="block text-sm font-medium mb-2 text-gray-700 dark:text-gray-300">Name</label>
                   <input
