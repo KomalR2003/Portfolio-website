@@ -73,14 +73,14 @@ export default function Projects() {
     },
     {
       id: 3,
-      title: 'WhatsApp Clone ',
-      description: 'A real-time WhatsApp clone built with React frontend, Node.js/Express backend, MongoDB database, and Socket.io for instant messaging with Google OAuth authentication and file upload capabilities.',
-      technologies: ['React', 'Node/Express js', 'MongoDB', 'Socket.io'],
-      image: 'projects/wp.png',
-      github: 'https://github.com/KomalR2003/Whatsapp-Clone',
-      demo: 'https://whatsapp-clone-kp6a.vercel.app/',
+      title: 'Password protected Notes desktop app',
+      description: 'A secure, AI-powered notes app with password protection, instant translation, smart summaries, grammar checking, AI insights, and intelligent tag suggestions.',
+      technologies: ['React + Vite', 'GROQ API', 'Tailwind CSS'],
+      image: 'projects/notes.png',
+      github: 'https://github.com/KomalR2003/notes',
+      demo: 'https://notes-app-vite.netlify.app/',
       gradient: 'from-blue-500 to-purple-600',
-      category: 'Fullstack'
+      category: 'Frontend'
     },
     
   ];
